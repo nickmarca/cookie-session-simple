@@ -1,0 +1,21 @@
+{
+  "name": "cookie-session-simple",
+  "author": "Nick Marca <twitter.com/nicholasmarca>",
+  "description": "Simple Express Middleware for creating session",
+  "repository": "https://github.com/nickmarca/cookie-session-simple.git",
+  "version": "1.0.0",
+  "main": "cookie-session-simple.js",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookies": "^0.7.1",
+    "lodash": "^4.17.4",
+    "on-headers": "^1.0.1"
+  }
+}
